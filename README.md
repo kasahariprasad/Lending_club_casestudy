@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case study
+> This is a brief case study done on data of loan applicants of a consumer finance company. Based on the analysis there are some insights drawn from the data which will benefit any finance company in deciding whether or not to give loan to a loan applicant or whether to give loan at a higher interest rate
 
 
 ## Table of Contents
@@ -8,45 +8,33 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The case study analyses the data of a finance company who gives loans at affordable interest rates
+- The goal is to analyse the historical data of loan applicants, some of whom have paid off the entire loan whereas some of them have defaulted.
+- The outcome of the case study is to help the finance company in deciding whether a new loan applicant is likely to pay the loan or whether they are less likely to repay the loan.
+- For the applicants who are less likely to repay the loan the company can make decision to either reject their loan or to give loan at higher interest rate
+- The dataset being analysed for this case study is "loan.csv" file
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Loan when taken for the purpose of DEBT CONSOLIDATION is more likely to be defaulted
+- Loan applicants who have been employed for a longer period of time (say more than 10 years) are more likely to default the loan
+- Loan applicants who have been living on RENT or MORTGAGE are less likely to repay the loan
+- There are grades allocated to a loan applicants from A to G by LC. The applicants with grades after C are more likely to default the loan
+- Every loan applicant's income is verified. If not verified would result in more chances of getting defaulted.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python Libraries - pandas, numpy, seaborn, matplotlib 
+- Exploratory Data Analysis - Univariate analysis, univariate segmented analysis, bivariate analysis
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was done as a case study for UPGRAD masters course on AI ML.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@rasikasonar] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
